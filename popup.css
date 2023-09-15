@@ -1,0 +1,121 @@
+.modal{
+    display: flex;
+    width: 320px;
+    padding: 32px 24px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;border-radius: 8px;
+    border: 1px solid var(--gray-300, #D5D5D5);
+    background: var(--gray-50, #FAFAFA);
+}
+
+.logo{
+    align-self: stretch; color: var(--gray-500, #B1B1B1);
+    text-align: right;
+    font-family: Poppins;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%; /* 10px */
+}
+
+.logoimg{
+    width: 39.864px;
+    height: 16px;position: absolute;
+    left: 24px;
+    top: 29px;
+}
+
+.header {
+    display: flex;
+    padding: 11px 0px 21px 0px;
+    justify-content: center;
+    align-items: center;
+    align-self: stretch;
+}
+
+.headercontent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: -40px;
+}
+
+.headercontent_img{
+    width: 174.222px; height: 64px;
+}
+
+.headercontent_span{
+    width: 272px; color: var(--blue-900, #050F33);
+        text-align: center;
+        font-family: Pretendard;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 100%; /* 10px */
+}
+
+.divider {
+    height: 1px;
+    align-self: stretch; background: var(--gray-100, #EEE);
+}
+
+.tenant_input{
+    display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+        align-self: stretch;
+}
+
+.tenant_input_span{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    align-self: stretch; color:#656669
+}
+
+.inputbox { 
+    display: flex;
+    height: 40px;
+    padding: 0px 8px;
+    align-items: center;
+    align-self: stretch; border-radius: 8px;
+    border: 1px solid var(--color-gray-500, #B0B1B4);
+    background: var(--color-gray-50, #FAFAFB);
+}
+
+.CTA{
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+    align-self: stretch;
+}
+
+.btn_cancel{
+    display: flex; 
+    width:108px; 
+    height: 40px; 
+    padding: 0px 12px; 
+    justify-content: center;
+    align-items: center; 
+    flex: 1 0 0; 
+    border-radius: 8px; 
+    border: 1px solid var(--color-gray-300, #D4D5D8); 
+    cursor: pointer; 
+    background: var(--color-gray-50, #FAFAFB); 
+    color: var(--color-gray-600, #7F8083);
+}
+
+.btn_apply{
+    display: flex; 
+    height: 40px; 
+    padding: 0px 12px; 
+    justify-content: center; 
+    align-items: center;
+    flex: 1 0 0; 
+    border-radius: 8px; 
+    background: var(--color-blue-400, #3354FF); 
+    cursor: pointer; 
+    color:#FAFAFB
+}
